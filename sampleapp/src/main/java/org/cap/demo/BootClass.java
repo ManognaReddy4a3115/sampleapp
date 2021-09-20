@@ -8,10 +8,13 @@ show();
 }
 public static void show() {
 	int[] arr= {1,2,3,4};
-	for(int i=0;i<100;i++)
+	int sum=0;
+	for(int n:arr)
 	{
-		System.out.println(arr[i]);
-	}
+		sum+=n;
+		System.out.println(n);
+	
 	System.out.println("show method here");
+}
 }
 }
